@@ -20,6 +20,25 @@
    端口选择不放行，通过nigix来转发
    接下来就要配置nginx了
 
+* 在服务器端，不需要开启8000的端口，通过内部调用就可以了
+
+
+## 数据库迁移和超级管理员设置
+
+还要更新 sqlite数据库
+
+https://www.ikxin.com/710.html
+
+* 先数据库迁移
+```
+python manage.py makemigrations
+python manage.py migrate
+```
+
+* 再设置超级管理员
+```
+python manage.py createsuperuser
+```
   
 
 ## 在宝塔中配置nginx
