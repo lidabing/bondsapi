@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-kks-24gmg6^v76qu78gsb%wg(7irguz4v*%m-thlvxl@68@9z1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','www.chatools.net','chatools.net']
+ALLOWED_HOSTS = ['127.0.0.1']
 
 
 # Application definition
