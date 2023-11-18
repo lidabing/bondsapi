@@ -6,6 +6,10 @@
 
 * 进入宝塔面板-》网站-》python项目--》安装nginx--》安装python3.8.12
 * 上传django代码bondsapi到www/wwwroot目录里面
+* 需要调整bondsapi文件权限 
+```
+ sudo chmod -R 777 bondsapi 
+```
 * 宝塔面板里面配置python项目
 
 ## 在宝塔中配置django
