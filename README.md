@@ -2,6 +2,11 @@
 
 * 改用django实现，fastapi部署好麻烦，还是改django，以后这种项目都要成熟的方案。
 
+## 使用django来创建工程
+
+django-admin startproject your_project_name
+python manage.py startapp your_app_name
+
 ## 安装宝塔面板安装以及部署
 
 * 进入宝塔面板-》网站-》python项目--》安装nginx--》安装python3.8.12
